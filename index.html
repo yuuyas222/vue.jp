@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>vue.jp</title>
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <h1>Vue.jp</h1>
+        <div id="app">
+            {{ message }}
+        </div>
+
+        <script>
+            var app = new Vue({
+                el: "#app",
+                data: {
+                    message: "hello Vue!"
+                }
+            })
+        </script>
+    </body>
+</html>
